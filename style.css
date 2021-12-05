@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+   display: flex;
+   justify-content: space-evenly; 
+   flex-wrap: wrap;
+}
+input, select{
+    padding:4px;
+    border:none;
+    outline: none;
+    
+}
+
+input{
+    background: none;
+    border-bottom: 2px solid rgb(66, 83, 104);
+}
+.header{
+    text-align: center;
+    flex-basis: 100%;
+    margin:12px 0;
+}
+.container{
+    max-width: 500px;
+    flex-grow: 1;
+}
+.book-form{
+    display: flex;
+   justify-content: center; 
+   flex-wrap: wrap;
+   
+}
+.input-wrapper{
+    flex-basis: 100%;
+    text-align: center;
+    padding:20px;
+    margin:20px;
+    box-shadow: 4px 2px 4px rgb(224, 224, 224);
+    background-color: rgb(206, 229, 255);
+}
+.priority-label{
+    margin-bottom: 10px;
+}
+.priority{
+    margin-right:20px;
+    margin-left: 5px;
+    display: inline-block;
+    text-align: left;
+}
+.submit-btn{
+    color:white;
+    background:rgb(5, 44, 85);
+    border:none;
+    outline: none;
+    padding: 0.5em 1.5em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.books-list{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:center;
+    /* height: 100%; */
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+.book{
+    padding:10px 20px;
+    margin: 10px;
+    flex-basis: 51%;
+    box-shadow: 4px 2px 4px rgb(224, 224, 224);
+    background-color: rgb(255, 213, 134);
+}
+.book p{
+    line-height: 1.5em;
+    text-transform: capitalize;
+}
