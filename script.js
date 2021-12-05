@@ -26,8 +26,6 @@ window.addEventListener("load", ()=>{
     function displayBooks(){
             booksContainer.innerHTML="";
             booksList.forEach(book=>addBookToList(book))
-        
-
     }
 
     function clearForm(formInputs){
